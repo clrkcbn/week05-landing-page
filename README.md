@@ -434,8 +434,8 @@ Extra captures: `product-showcase.jpg`, `contact-section.jpg`, `cta-section.jpg`
 
 The responsive-layout shots use real device frames (Chrome device toolbar). The section shots are
 captured with Playwright; regenerate them any time with `node documentation/shoot.mjs` while the dev
-server is running. `vscode-project-structure.png` and `blade-components-folder.png` are rendered from
-the real tracked file list; swap in a literal VS Code capture if your instructor prefers.
+server is running. `vscode-project-structure.png`, `blade-components-folder.png`, and
+`github-repository.png` are literal captures of the editor and the GitHub repo page.
 
 ---
 

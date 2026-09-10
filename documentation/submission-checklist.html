@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Submission Checklist — Week 5 Landing Page</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    font-size: 10.5pt;
+    line-height: 1.5;
+    margin: 0;
+  }
+  header { border-bottom: 2px solid #1a1a1a; padding-bottom: 10px; margin-bottom: 18px; }
+  h1 { font-size: 17pt; margin: 0 0 2px; }
+  .meta { font-size: 9pt; color: #555; }
+  .summary {
+    background: #f4f4f2;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    font-size: 9.5pt;
+  }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; vertical-align: top; padding: 7px 8px; border-bottom: 1px solid #e2e2e2; }
+  th { background: #1a1a1a; color: #fff; font-size: 9pt; text-transform: uppercase; letter-spacing: .04em; }
+  td.tick { text-align: center; font-weight: 700; color: #157a3c; white-space: nowrap; }
+  td.item { font-weight: 600; width: 30%; }
+  td.evidence { color: #333; font-size: 9.5pt; }
+  code { background: #f0f0ee; padding: 0 3px; border-radius: 3px; font-size: 9pt; }
+  tr { break-inside: avoid; }
+  footer { margin-top: 18px; font-size: 8.5pt; color: #777; border-top: 1px solid #ddd; padding-top: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Submission Checklist — Week 5 Landing Page</h1>
+  <div class="meta">Clark Jendrix Cabillon &nbsp;·&nbsp; Client-Server Technologies &nbsp;·&nbsp; Repository: https://github.com/clrkcbn/week05-landing-page</div>
+</header>
+
+<div class="summary">
+  <strong>Status:</strong> All 12 items complete. Landing page, documentation, and screenshots are in the
+  public repository (22 commits); the LinkedIn post is published and the repository link is submitted through the LMS.
+</div>
+
+<table>
+  <thead>
+    <tr><th style="width:8%">Done</th><th>Item</th><th>Evidence</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">Responsive landing page completed</td>
+      <td class="evidence"><code>resources/views/pages/home.blade.php</code> assembles the full page; mobile-first Tailwind breakpoints (<code>sm:</code> <code>md:</code> <code>lg:</code>) throughout.</td>
+    </tr>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">All required sections implemented</td>
+      <td class="evidence">Navbar, Hero, Features (6-card grid), Product Showcase, Pricing (3 plans + monthly/annual switch), Testimonials, Contact form with inline validation, Closing CTA, Footer.</td>
+    </tr>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">Blade Components created and reused</td>
+      <td class="evidence">12 components in <code>resources/views/components/</code> — button, icon, navbar, hero, section-heading, feature-card, showcase, pricing-card, testimonial-card, contact, cta, footer. Card components rendered in <code>@foreach</code> loops.</td>
+    </tr>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">Tailwind CSS used throughout the project</td>
+      <td class="evidence">Tailwind CSS v4 via Vite; <code>resources/css/app.css</code> imports Tailwind plus design tokens (one accent colour, type scale, spacing rhythm, radius system). Every component styled with utility classes.</td>
+    </tr>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">Desktop, tablet, and mobile layouts tested</td>
+      <td class="evidence">Tested at 390 / 820 / 1280 / 1440px. Captures in <code>screenshots/</code>: desktop-view.png, laptop-view.png, tablet-view.png, mobile-view.png.</td>
+    </tr>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">Public GitHub repository</td>
+      <td class="evidence">https://github.com/clrkcbn/week05-landing-page — visibility set to Public.</td>
+    </tr>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">Minimum of 10 meaningful Git commits</td>
+      <td class="evidence">22 commits with conventional messages (chore: scaffold Laravel 13 project; feat: build responsive navbar; feat: implement membership pricing cards; docs: rewrite README; and more).</td>
+    </tr>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">Complete README.md documentation</td>
+      <td class="evidence">14 sections: project title, introduction, objectives, responsive web design, Tailwind CSS, Blade components, UI design, folder structure, screenshots, before/after, problems &amp; solutions, reflection, getting started, credits.</td>
+    </tr>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">Before-and-after comparison included</td>
+      <td class="evidence">README section 10; <code>documentation/before-unstyled.jpg</code> + <code>after-styled.jpg</code>; <code>screenshots/before-design.jpg</code> + <code>after-design.png</code>.</td>
+    </tr>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">Screenshots folder completed</td>
+      <td class="evidence">20 images in <code>screenshots/</code>: responsive views, every section, before/after, VS Code project structure, Blade components folder, GitHub repository page.</td>
+    </tr>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">LinkedIn post published</td>
+      <td class="evidence">Post published on LinkedIn with before/after screenshots attached; final text saved in <code>documentation/linkedin-post.md</code>.</td>
+    </tr>
+    <tr>
+      <td class="tick">&#10004;</td>
+      <td class="item">Repository link submitted through the LMS</td>
+      <td class="evidence">Repository URL submitted via the LMS submission form.</td>
+    </tr>
+  </tbody>
+</table>
+
+<footer>Generated for the Week 5 submission &mdash; ITEP310 Client-Server Technologies.</footer>
+</body>
+</html>

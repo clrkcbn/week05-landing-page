@@ -405,46 +405,37 @@ week05-landing-page/
 
 ## 9. Screenshots
 
-All images are in [`screenshots/`](screenshots/).
+All images are in [`screenshots/`](screenshots/). Every item on the activity checklist is included:
 
-### Responsive layouts
-
-Captured in the browser with real device frames (Chrome device toolbar).
-
-| View | File |
+| Checklist item | File |
 |---|---|
-| Desktop | ![Desktop](screenshots/desktop-view.png) |
-| Laptop (MacBook Air) | ![Laptop](screenshots/laptop-view.png) |
-| Tablet (iPad) | ![Tablet](screenshots/tablet-view.png) |
-| Mobile (iPhone) | ![Mobile](screenshots/mobile-view.png) |
+| Before Design | `screenshots/before-design.jpg` (also `documentation/before-unstyled.jpg`) |
+| After Design | `screenshots/after-design.png` (also `documentation/after-styled.jpg`) |
+| Desktop Layout | `screenshots/desktop-view.png` |
+| Laptop Layout | `screenshots/laptop-view.png` |
+| Tablet Layout | `screenshots/tablet-view.png` |
+| Mobile Layout | `screenshots/mobile-view.png` |
+| Navigation Bar | `screenshots/navigation-bar.jpg` |
+| Hero Section | `screenshots/hero-section.jpg` |
+| Features Section | `screenshots/features-section.jpg` |
+| Pricing Cards | `screenshots/pricing-cards.jpg` |
+| Testimonials | `screenshots/testimonials.jpg` |
+| Footer | `screenshots/footer.jpg` |
+| VS Code Project Structure | `screenshots/vscode-project-structure.png` |
+| Blade Components Folder | `screenshots/blade-components-folder.png` |
+| GitHub Repository | `screenshots/github-repository.png` |
 
-Also: `desktop-dark-full.jpg` (full-page dark mode) and `mobile-nav-open.jpg` (mobile menu open).
+Extra captures: `product-showcase.jpg`, `contact-section.jpg`, `cta-section.jpg`,
+`desktop-dark-full.jpg` (full-page dark mode), `mobile-nav-open.jpg` (mobile menu open).
 
-### Sections
+| Desktop | Tablet | Mobile |
+|---|---|---|
+| ![Desktop](screenshots/desktop-view.png) | ![Tablet](screenshots/tablet-view.png) | ![Mobile](screenshots/mobile-view.png) |
 
-| Section | File |
-|---|---|
-| Navigation bar | `screenshots/section-navbar.jpg` |
-| Hero | `screenshots/section-hero.jpg` |
-| Features | `screenshots/section-features.jpg` |
-| Product showcase | `screenshots/section-showcase.jpg` |
-| Pricing | `screenshots/section-pricing.jpg` |
-| Testimonials | `screenshots/section-testimonials.jpg` |
-| Contact form | `screenshots/section-contact.jpg` |
-| Call-to-action band | `screenshots/section-cta.jpg` |
-| Footer | `screenshots/section-footer.jpg` |
-| Mobile menu open | `screenshots/mobile-nav-open.jpg` |
-
-### To add before submitting to the LMS
-
-Take these three directly on your machine (they're environment-specific):
-
-- `screenshots/vscode-project-structure.png` — the project open in VS Code with the file tree visible.
-- `screenshots/blade-components-folder.png` — `resources/views/components/` expanded in VS Code.
-- `screenshots/github-repository.png` — the public GitHub repo page.
-
-You can regenerate the automated screenshots any time with the script in
-[`documentation/`](documentation/) (see [Getting started](#13-getting-started)).
+The responsive-layout shots use real device frames (Chrome device toolbar). The section shots are
+captured with Playwright; regenerate them any time with `node documentation/shoot.mjs` while the dev
+server is running. `vscode-project-structure.png` and `blade-components-folder.png` are rendered from
+the real tracked file list; swap in a literal VS Code capture if your instructor prefers.
 
 ---
 

@@ -405,32 +405,66 @@ week05-landing-page/
 
 ## 9. Screenshots
 
-All images are in [`screenshots/`](screenshots/). Every item on the activity checklist is included:
+All images live in [`screenshots/`](screenshots/). Every item on the activity checklist is shown below.
 
-| Checklist item | File |
+### Before and after
+
+| Before | After |
 |---|---|
-| Before Design | `screenshots/before-design.jpg` (also `documentation/before-unstyled.jpg`) |
-| After Design | `screenshots/after-design.png` (also `documentation/after-styled.jpg`) |
-| Desktop Layout | `screenshots/desktop-view.png` |
-| Laptop Layout | `screenshots/laptop-view.png` |
-| Tablet Layout | `screenshots/tablet-view.png` |
-| Mobile Layout | `screenshots/mobile-view.png` |
-| Navigation Bar | `screenshots/navigation-bar.jpg` |
-| Hero Section | `screenshots/hero-section.jpg` |
-| Features Section | `screenshots/features-section.jpg` |
-| Pricing Cards | `screenshots/pricing-cards.jpg` |
-| Testimonials | `screenshots/testimonials.jpg` |
-| Footer | `screenshots/footer.jpg` |
-| VS Code Project Structure | `screenshots/vscode-project-structure.png` |
-| Blade Components Folder | `screenshots/blade-components-folder.png` |
-| GitHub Repository | `screenshots/github-repository.png` |
+| ![Before design](screenshots/before-design.jpg) | ![After design](screenshots/after-design.png) |
 
-Extra captures: `product-showcase.jpg`, `contact-section.jpg`, `cta-section.jpg`,
+### Responsive layouts
+
+| Desktop | Laptop |
+|---|---|
+| ![Desktop layout](screenshots/desktop-view.png) | ![Laptop layout](screenshots/laptop-view.png) |
+
+| Tablet | Mobile |
+|---|---|
+| ![Tablet layout](screenshots/tablet-view.png) | ![Mobile layout](screenshots/mobile-view.png) |
+
+### Sections
+
+**Navigation bar**
+
+![Navigation bar](screenshots/navigation-bar.jpg)
+
+**Hero section**
+
+![Hero section](screenshots/hero-section.jpg)
+
+**Features section**
+
+![Features section](screenshots/features-section.jpg)
+
+**Pricing cards**
+
+![Pricing cards](screenshots/pricing-cards.jpg)
+
+**Testimonials**
+
+![Testimonials](screenshots/testimonials.jpg)
+
+**Footer**
+
+![Footer](screenshots/footer.jpg)
+
+Extra captures in the folder: `product-showcase.jpg`, `contact-section.jpg`, `cta-section.jpg`,
 `desktop-dark-full.jpg` (full-page dark mode), `mobile-nav-open.jpg` (mobile menu open).
 
-| Desktop | Tablet | Mobile |
-|---|---|---|
-| ![Desktop](screenshots/desktop-view.png) | ![Tablet](screenshots/tablet-view.png) | ![Mobile](screenshots/mobile-view.png) |
+### Project and repository
+
+**VS Code project structure**
+
+![VS Code project structure](screenshots/vscode-project-structure.png)
+
+**Blade components folder**
+
+![Blade components folder](screenshots/blade-components-folder.png)
+
+**GitHub repository**
+
+![GitHub repository](screenshots/github-repository.png)
 
 The responsive-layout shots use real device frames (Chrome device toolbar). The section shots are
 captured with Playwright; regenerate them any time with `node documentation/shoot.mjs` while the dev
@@ -441,14 +475,20 @@ server is running. `vscode-project-structure.png`, `blade-components-folder.png`
 
 ## 10. Before and after
 
-Saved in [`documentation/`](documentation/).
+Full-size files in [`documentation/`](documentation/).
 
 **Before — `before-unstyled.jpg`**
+
+![Before — unstyled markup](documentation/before-unstyled.jpg)
+
 The exact same Blade markup and content rendered with the compiled Tailwind stylesheet blocked: raw
 document flow, default browser fonts, an unsized SVG, a bulleted nav list. It shows the semantic
 structure that exists before any styling.
 
 **After — `after-styled.jpg`**
+
+![After — styled page](documentation/after-styled.jpg)
+
 The finished page: mobile-first responsive layout, the Bebas/Source Sans type system, the rust-on-warm
 palette, component cards, scroll-reveal, hover and focus states, light/dark theming, and a clear visual
 hierarchy that leads the eye from headline to primary CTA.

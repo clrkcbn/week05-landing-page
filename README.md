@@ -405,15 +405,20 @@ week05-landing-page/
 
 ## 9. Screenshots
 
-All images are in [`screenshots/`](screenshots/). Full-page captures are JPEGs of the whole scroll.
+All images are in [`screenshots/`](screenshots/).
 
 ### Responsive layouts
 
-| Desktop (1440px) | Tablet (820px) | Mobile (390px) |
-|---|---|---|
-| ![Desktop](screenshots/desktop-full.jpg) | ![Tablet](screenshots/tablet-full.jpg) | ![Mobile](screenshots/mobile-full.jpg) |
+Captured in the browser with real device frames (Chrome device toolbar).
 
-Also: `laptop-full.jpg` (1280px) and `desktop-dark-full.jpg` (dark mode).
+| View | File |
+|---|---|
+| Desktop | ![Desktop](screenshots/desktop-view.png) |
+| Laptop (MacBook Air) | ![Laptop](screenshots/laptop-view.png) |
+| Tablet (iPad) | ![Tablet](screenshots/tablet-view.png) |
+| Mobile (iPhone) | ![Mobile](screenshots/mobile-view.png) |
+
+Also: `desktop-dark-full.jpg` (full-page dark mode) and `mobile-nav-open.jpg` (mobile menu open).
 
 ### Sections
 

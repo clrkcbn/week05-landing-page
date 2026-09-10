@@ -32,7 +32,7 @@
         {{-- Asset --}}
         <div class="reveal relative" style="--reveal-delay: 120ms">
             <div class="relative aspect-[7/8] overflow-hidden rounded-2xl border border-line bg-surface-2">
-                <img src="{{ $image ?? asset('images/hero-barber.jpg') }}" width="1200" height="800"
+                <img src="{{ $image ?? asset('images/hero-barber.jpg') }}" width="1000" height="667"
                      alt="A barber giving a straight-razor beard trim at Fadehouse."
                      fetchpriority="high" decoding="async"
                      class="h-full w-full object-cover" />

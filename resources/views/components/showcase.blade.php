@@ -23,7 +23,7 @@
             {{-- Wide "screenshot" of the space --}}
             <figure class="reveal lg:col-span-8">
                 <div class="overflow-hidden rounded-2xl border border-line bg-surface-2">
-                    <img src="{{ $wideImage ?? asset('images/shop-floor.jpg') }}" width="1280" height="960" loading="lazy" decoding="async"
+                    <img src="{{ $wideImage ?? asset('images/shop-floor.jpg') }}" width="1200" height="797" loading="lazy" decoding="async"
                          alt="The Fadehouse floor: six barber stations under warm pendant light."
                          class="h-full w-full object-cover" />
                 </div>
@@ -34,7 +34,7 @@
             <figure class="reveal lg:col-span-4" style="--reveal-delay: 100ms">
                 <div class="mx-auto w-[220px] rounded-[2rem] border-[6px] border-ink bg-ink p-1.5 shadow-xl">
                     <div class="overflow-hidden rounded-[1.6rem] bg-surface-2">
-                        <img src="{{ $phoneImage ?? asset('images/lineup-portrait.jpg') }}" width="640" height="1280" loading="lazy" decoding="async"
+                        <img src="{{ $phoneImage ?? asset('images/lineup-portrait.jpg') }}" width="520" height="778" loading="lazy" decoding="async"
                              alt="A barber finishing a neck line-up, viewed on a phone-sized crop."
                              class="aspect-[9/18] h-full w-full object-cover" />
                     </div>
@@ -45,7 +45,7 @@
             {{-- Detail image --}}
             <figure class="reveal lg:col-span-5">
                 <div class="overflow-hidden rounded-2xl border border-line bg-surface-2">
-                    <img src="{{ $detailImage ?? asset('images/barber-chair.jpg') }}" width="720" height="720" loading="lazy" decoding="async"
+                    <img src="{{ $detailImage ?? asset('images/barber-chair.jpg') }}" width="860" height="573" loading="lazy" decoding="async"
                          alt="A classic tufted-leather barber chair at a Fadehouse station."
                          class="aspect-[4/3] h-full w-full object-cover" />
                 </div>

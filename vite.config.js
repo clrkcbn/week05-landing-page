@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
-import { bunny } from 'laravel-vite-plugin/fonts';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
@@ -8,11 +7,6 @@ export default defineConfig({
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,
-            fonts: [
-                // Self-hosted at build time (no runtime Google Fonts <link>).
-                bunny('Bebas Neue', { weights: [400] }),
-                bunny('Source Sans 3', { weights: [400, 500, 600, 700] }),
-            ],
         }),
         tailwindcss(),
     ],
